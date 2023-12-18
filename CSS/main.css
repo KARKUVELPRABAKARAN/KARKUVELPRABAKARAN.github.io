@@ -1,0 +1,99 @@
+main .main-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+main .main-layout .main-content{
+    color: #fff;
+    font-size: 48px;
+    transform: all linear;
+    margin-top: 25vh;
+    
+}
+main .main-layout .main-content div .wordpress{
+    color: #2b6ed1;
+}
+main .main-layout .main-content div .wordpress:hover{
+    color: #0653a5;
+}
+main .main-layout .main-content div .gitlab{
+    color: #FC6D26;
+}
+main .main-layout .main-content div .gitlab:hover{
+    color: #db5613;
+}
+main .main-layout .main-content div .linkedin{
+    color:#0C64C5;
+}
+  
+main .main-layout .main-content div .linkedin:hover{
+    color:#043682;
+}
+  
+#des{
+    font-size: 24px;
+  
+}
+  
+#name{
+    font-weight: 700;
+    color:#1397de;
+    animation: anim  2s ease-out infinite;
+}
+@keyframes anim {
+    50%{
+      opacity: 0.3;
+      transform: translateX(flex-direction);
+    }
+  
+}
+@media (max-width:756px) {
+    
+    #des{
+      font-size: 20px;
+      
+    }
+
+    main .main-layout .main-content{
+      font-size: 38px;
+      position: absolute;
+      top: 10vh;
+      
+    }
+}
+@media (max-width:570px){
+    #des{
+      font-size: 15px;
+    }
+    main .main-layout .main-content{
+      font-size: 30px;
+      position: absolute;
+      top: 10vh;
+      
+    }
+  }
+@media (max-width:456px){
+    #des{
+      font-size: 10px;
+    }
+    main .main-layout .main-content{
+      font-size: 25px;
+      position: absolute;
+      top: 10vh;
+      
+    }
+}
+@media (max-width:375px){
+    #des{
+      font-size: 10px;
+    }
+    main .main-layout .main-content{
+      font-size: 20px;
+      position: absolute;
+      top: 10vh;
+      
+    }
+}
