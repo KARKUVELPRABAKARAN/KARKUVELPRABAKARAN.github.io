@@ -41,4 +41,10 @@ form .btn2{
     margin-top: 2px;
     cursor: pointer;
 }
+@media(max-width:480px)
+{
+    form input, form textarea{
+        width: 300px;
+    }
+}
 
